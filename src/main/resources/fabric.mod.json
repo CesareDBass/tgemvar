@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tgemvar",
+	"version": "${version}",
+	"name": "Type Gems Variant",
+	"description": "This is a mod that implement different variations to the Type Gems block, similar to the Tumblestone variants, hope you enjoy it!",
+	"authors": [
+		"CesareCBass"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tgemvar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cbass.tgv.TypeGemsVariant"
+		],
+		"fabric-datagen": [
+			"net.cbass.tgv.TypeGemsVariantDataGenerator"
+		],
+		"client": [
+			"net.cbass.tgv.TypeGemsVariantClient"
+		]
+	},
+	"mixins": [
+		"tgemvar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
