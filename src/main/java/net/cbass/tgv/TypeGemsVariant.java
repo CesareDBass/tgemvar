@@ -1,5 +1,7 @@
 package net.cbass.tgv;
 
+import net.cbass.tgv.block.ModBlocks;
+import net.cbass.tgv.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -14,6 +16,8 @@ public class TypeGemsVariant implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 
 	public static Identifier id(String path) {

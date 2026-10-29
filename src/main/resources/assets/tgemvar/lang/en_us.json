@@ -1,0 +1,22 @@
+{
+  "block.tgemvar.bug_gem_bricks": "Bug Block Bricks",
+  "block.tgemvar.dark_gem_bricks": "Dark Block Bricks",
+  "block.tgemvar.dragon_gem_bricks": "Dragon Block Bricks",
+  "block.tgemvar.electric_gem_bricks": "Electric Block Bricks",
+  "block.tgemvar.fairy_gem_bricks": "Fairy Block Bricks",
+  "block.tgemvar.fighting_gem_bricks": "Fighting Block Bricks",
+  "block.tgemvar.fire_gem_bricks": "Fire Block Bricks",
+  "block.tgemvar.flying_gem_bricks": "Flying Block Bricks",
+  "block.tgemvar.ghost_gem_bricks": "Ghost Block Bricks",
+  "block.tgemvar.grass_gem_bricks": "Grass Block Bricks",
+  "block.tgemvar.ground_gem_bricks": "Ground Block Bricks",
+  "block.tgemvar.ice_gem_bricks": "Ice Block Bricks",
+  "block.tgemvar.normal_gem_bricks": "Normal Block Bricks",
+  "block.tgemvar.poison_gem_bricks": "Poison Block Bricks",
+  "block.tgemvar.psychic_gem_bricks": "Psychic Block Bricks",
+  "block.tgemvar.rock_gem_bricks": "Rock Block Bricks",
+  "block.tgemvar.steel_gem_bricks": "Steel Block Bricks",
+  "block.tgemvar.water_gem_bricks": "Water Block Bricks",
+
+  "itemgroup.tgemvar.type_block_variants": "Type Gem Blocks Variants"
+}

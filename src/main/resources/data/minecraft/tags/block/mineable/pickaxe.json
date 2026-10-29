@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "tgemvar:bug_gem_bricks",
+    "tgemvar:dark_gem_bricks",
+    "tgemvar:dragon_gem_bricks",
+    "tgemvar:electric_gem_bricks",
+    "tgemvar:fairy_gem_bricks",
+    "tgemvar:fighting_gem_bricks",
+    "tgemvar:fire_gem_bricks",
+    "tgemvar:flying_gem_bricks",
+    "tgemvar:ghost_gem_bricks",
+    "tgemvar:grass_gem_bricks",
+    "tgemvar:ground_gem_bricks",
+    "tgemvar:ice_gem_bricks",
+    "tgemvar:normal_gem_bricks",
+    "tgemvar:poison_gem_bricks",
+    "tgemvar:psychic_gem_bricks",
+    "tgemvar:rock_gem_bricks",
+    "tgemvar:steel_gem_bricks",
+    "tgemvar:water_gem_bricks"
+  ]
+}

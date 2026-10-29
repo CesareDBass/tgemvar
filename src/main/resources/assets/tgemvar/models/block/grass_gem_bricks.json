@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tgemvar:block/grass_gem_bricks"
+  }
+}
