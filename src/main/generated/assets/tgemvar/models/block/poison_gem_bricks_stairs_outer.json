@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tgemvar:block/poison_gem_bricks",
+    "side": "tgemvar:block/poison_gem_bricks",
+    "top": "tgemvar:block/poison_gem_bricks"
+  }
+}

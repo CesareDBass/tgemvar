@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tgemvar:block/dragon_gem_bricks",
+    "side": "tgemvar:block/dragon_gem_bricks",
+    "top": "tgemvar:block/dragon_gem_bricks"
+  }
+}

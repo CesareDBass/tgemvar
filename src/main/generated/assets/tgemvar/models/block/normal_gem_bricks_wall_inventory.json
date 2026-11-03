@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "tgemvar:block/normal_gem_bricks"
+  }
+}

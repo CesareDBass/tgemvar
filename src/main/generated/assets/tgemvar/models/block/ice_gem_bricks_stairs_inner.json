@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tgemvar:block/ice_gem_bricks",
+    "side": "tgemvar:block/ice_gem_bricks",
+    "top": "tgemvar:block/ice_gem_bricks"
+  }
+}

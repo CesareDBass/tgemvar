@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tgemvar:block/ghost_gem_bricks",
+    "side": "tgemvar:block/ghost_gem_bricks",
+    "top": "tgemvar:block/ghost_gem_bricks"
+  }
+}

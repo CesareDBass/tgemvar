@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "tgemvar:block/poison_gem_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tgemvar:block/dark_gem_bricks",
+    "side": "tgemvar:block/dark_gem_bricks",
+    "top": "tgemvar:block/dark_gem_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tgemvar:block/fairy_gem_bricks",
+    "side": "tgemvar:block/fairy_gem_bricks",
+    "top": "tgemvar:block/fairy_gem_bricks"
+  }
+}

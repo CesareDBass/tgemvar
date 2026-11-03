@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tgemvar:block/normal_gem_bricks_slab"
+    },
+    "type=double": {
+      "model": "tgemvar:block/normal_gem_bricks"
+    },
+    "type=top": {
+      "model": "tgemvar:block/normal_gem_bricks_slab_top"
+    }
+  }
+}
