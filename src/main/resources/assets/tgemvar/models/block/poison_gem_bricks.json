@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "tgemvar:block/poison_gem_bricks"
-  }
-}
