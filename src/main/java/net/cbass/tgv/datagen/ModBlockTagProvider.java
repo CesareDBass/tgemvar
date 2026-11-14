@@ -19,6 +19,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BUG_GEM_BRICKS)
                 .add(ModBlocks.BUG_GEM_BRICKS_STAIRS)
                 .add(ModBlocks.BUG_GEM_BRICKS_SLAB)
+                .add(ModBlocks.CHISELED_BUG_GEM_BRICKS)
 
                 .add(ModBlocks.DARK_GEM_BRICKS)
                 .add(ModBlocks.DARK_GEM_BRICKS_STAIRS)

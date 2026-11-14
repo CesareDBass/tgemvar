@@ -18,6 +18,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BUG_GEM_BRICKS_STAIRS);
         addDrop(ModBlocks.BUG_GEM_BRICKS_SLAB, slabDrops(ModBlocks.BUG_GEM_BRICKS_SLAB));
         addDrop(ModBlocks.BUG_GEM_BRICKS_WALL);
+        addDrop(ModBlocks.CHISELED_BUG_GEM_BRICKS);
 
         addDrop(ModBlocks.DARK_GEM_BRICKS);
         addDrop(ModBlocks.DARK_GEM_BRICKS_STAIRS);

@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.TextureMap;
+import org.apache.logging.log4j.core.tools.picocli.CommandLine;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -17,6 +19,8 @@ public class ModModelProvider extends FabricModelProvider {
         BugBricksPool.stairs(ModBlocks.BUG_GEM_BRICKS_STAIRS);
         BugBricksPool.slab(ModBlocks.BUG_GEM_BRICKS_SLAB);
         BugBricksPool.wall(ModBlocks.BUG_GEM_BRICKS_WALL);
+
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_BUG_GEM_BRICKS);
 
         BlockStateModelGenerator.BlockTexturePool DarkBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_GEM_BRICKS);
         DarkBricksPool.stairs(ModBlocks.DARK_GEM_BRICKS_STAIRS);

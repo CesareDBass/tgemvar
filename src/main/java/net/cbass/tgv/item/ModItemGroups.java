@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BUG_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.BUG_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.BUG_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_BUG_GEM_BRICKS);
 
                         entries.add(ModBlocks.DARK_GEM_BRICKS);
                         entries.add(ModBlocks.DARK_GEM_BRICKS_STAIRS);
