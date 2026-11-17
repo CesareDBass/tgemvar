@@ -46,6 +46,10 @@ public class ModBlocks {
     public static final Block DARK_GEM_BRICKS_WALL = registerBlock("dark_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block CHISELED_DARK_GEM_BRICKS = registerBlock("chiseled_dark_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_BLACK)));
 
     public static final Block DRAGON_GEM_BRICKS = registerBlock("dragon_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -60,6 +64,10 @@ public class ModBlocks {
                     .mapColor(MapColor.BLUE)));
     public static final Block DRAGON_GEM_BRICKS_WALL = registerBlock("dragon_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.BLUE)));
+    public static final Block CHISELED_DRAGON_GEM_BRICKS = registerBlock("chiseled_dragon_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.BLUE)));
 
     public static final Block ELECTRIC_GEM_BRICKS = registerBlock("electric_gem_bricks",
@@ -76,6 +84,10 @@ public class ModBlocks {
     public static final Block ELECTRIC_GEM_BRICKS_WALL = registerBlock("electric_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.GOLD)));
+    public static final Block CHISELED_ELECTRIC_GEM_BRICKS = registerBlock("chiseled_electric_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.GOLD)));
 
     public static final Block FAIRY_GEM_BRICKS = registerBlock("fairy_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -90,6 +102,10 @@ public class ModBlocks {
                     .mapColor(MapColor.PINK)));
     public static final Block FAIRY_GEM_BRICKS_WALL = registerBlock("fairy_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PINK)));
+    public static final Block CHISELED_FAIRY_GEM_BRICKS = registerBlock("chiseled_fairy_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.PINK)));
 
     public static final Block FIGHTING_GEM_BRICKS = registerBlock("fighting_gem_bricks",
@@ -106,6 +122,10 @@ public class ModBlocks {
     public static final Block FIGHTING_GEM_BRICKS_WALL = registerBlock("fighting_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.RED)));
+    public static final Block CHISELED_FIGHTING_GEM_BRICKS = registerBlock("chiseled_fighting_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.RED)));
 
     public static final Block FIRE_GEM_BRICKS = registerBlock("fire_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -120,6 +140,10 @@ public class ModBlocks {
                     .mapColor(MapColor.BRIGHT_RED)));
     public static final Block FIRE_GEM_BRICKS_WALL = registerBlock("fire_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.BRIGHT_RED)));
+    public static final Block CHISELED_FIRE_GEM_BRICKS = registerBlock("chiseled_fire_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.BRIGHT_RED)));
 
     public static final Block FLYING_GEM_BRICKS = registerBlock("flying_gem_bricks",
@@ -136,6 +160,10 @@ public class ModBlocks {
     public static final Block FLYING_GEM_BRICKS_WALL = registerBlock("flying_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.LIGHT_BLUE)));
+    public static final Block CHISELED_FLYING_GEM_BRICKS = registerBlock("chiseled_flying_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.LIGHT_BLUE)));
 
     public static final Block GHOST_GEM_BRICKS = registerBlock("ghost_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -150,6 +178,10 @@ public class ModBlocks {
                     .mapColor(MapColor.TERRACOTTA_MAGENTA)));
     public static final Block GHOST_GEM_BRICKS_WALL = registerBlock("ghost_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+    public static final Block CHISELED_GHOST_GEM_BRICKS = registerBlock("chiseled_ghost_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.TERRACOTTA_MAGENTA)));
 
     public static final Block GRASS_GEM_BRICKS = registerBlock("grass_gem_bricks",
@@ -166,6 +198,10 @@ public class ModBlocks {
     public static final Block GRASS_GEM_BRICKS_WALL = registerBlock("grass_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.LIME)));
+    public static final Block CHISELED_GRASS_GEM_BRICKS = registerBlock("chiseled_grass_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.LIME)));
 
     public static final Block GROUND_GEM_BRICKS = registerBlock("ground_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -180,6 +216,10 @@ public class ModBlocks {
                     .mapColor(MapColor.SPRUCE_BROWN)));
     public static final Block GROUND_GEM_BRICKS_WALL = registerBlock("ground_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.SPRUCE_BROWN)));
+    public static final Block CHISELED_GROUND_GEM_BRICKS = registerBlock("chiseled_ground_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.SPRUCE_BROWN)));
 
     public static final Block ICE_GEM_BRICKS = registerBlock("ice_gem_bricks",
@@ -196,6 +236,10 @@ public class ModBlocks {
     public static final Block ICE_GEM_BRICKS_WALL = registerBlock("ice_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block CHISELED_ICE_GEM_BRICKS = registerBlock("chiseled_ice_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PALE_PURPLE)));
 
     public static final Block NORMAL_GEM_BRICKS = registerBlock("normal_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -210,6 +254,10 @@ public class ModBlocks {
                     .mapColor(MapColor.WHITE)));
     public static final Block NORMAL_GEM_BRICKS_WALL = registerBlock("normal_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.WHITE)));
+    public static final Block CHISELED_NORMAL_GEM_BRICKS = registerBlock("chiseled_normal_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.WHITE)));
 
     public static final Block POISON_GEM_BRICKS = registerBlock("poison_gem_bricks",
@@ -226,6 +274,10 @@ public class ModBlocks {
     public static final Block POISON_GEM_BRICKS_WALL = registerBlock("poison_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.PURPLE)));
+    public static final Block CHISELED_POISON_GEM_BRICKS = registerBlock("chiseled_poison_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PURPLE)));
 
     public static final Block PSYCHIC_GEM_BRICKS = registerBlock("psychic_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -240,6 +292,10 @@ public class ModBlocks {
                     .mapColor(MapColor.MAGENTA)));
     public static final Block PSYCHIC_GEM_BRICKS_WALL = registerBlock("psychic_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.MAGENTA)));
+    public static final Block CHISELED_PSYCHIC_GEM_BRICKS = registerBlock("chiseled_psychic_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.MAGENTA)));
 
     public static final Block ROCK_GEM_BRICKS = registerBlock("rock_gem_bricks",
@@ -256,6 +312,10 @@ public class ModBlocks {
     public static final Block ROCK_GEM_BRICKS_WALL = registerBlock("rock_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+    public static final Block CHISELED_ROCK_GEM_BRICKS = registerBlock("chiseled_rock_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
 
     public static final Block STEEL_GEM_BRICKS = registerBlock("steel_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -271,6 +331,10 @@ public class ModBlocks {
     public static final Block STEEL_GEM_BRICKS_WALL = registerBlock("steel_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
                     .mapColor(MapColor.IRON_GRAY)));
+    public static final Block CHISELED_STEEL_GEM_BRICKS = registerBlock("chiseled_steel_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.IRON_GRAY)));
 
     public static final Block WATER_GEM_BRICKS = registerBlock("water_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
@@ -285,6 +349,10 @@ public class ModBlocks {
                     .mapColor(MapColor.WATER_BLUE)));
     public static final Block WATER_GEM_BRICKS_WALL = registerBlock("water_gem_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.WATER_BLUE)));
+    public static final Block CHISELED_WATER_GEM_BRICKS = registerBlock("chiseled_water_gem_bricks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.WATER_BLUE)));
 
 
@@ -312,70 +380,87 @@ public class ModBlocks {
             entries.add(ModBlocks.DARK_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.DARK_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.DARK_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_DARK_GEM_BRICKS);
             entries.add(ModBlocks.DRAGON_GEM_BRICKS);
             entries.add(ModBlocks.DRAGON_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.DRAGON_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.DRAGON_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_DRAGON_GEM_BRICKS);
             entries.add(ModBlocks.ELECTRIC_GEM_BRICKS);
             entries.add(ModBlocks.ELECTRIC_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.ELECTRIC_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.ELECTRIC_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_ELECTRIC_GEM_BRICKS);
             entries.add(ModBlocks.FAIRY_GEM_BRICKS);
             entries.add(ModBlocks.FAIRY_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.FAIRY_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.FAIRY_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_FAIRY_GEM_BRICKS);
             entries.add(ModBlocks.FIGHTING_GEM_BRICKS);
             entries.add(ModBlocks.FIGHTING_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.FIGHTING_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.FIGHTING_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_FIGHTING_GEM_BRICKS);
             entries.add(ModBlocks.FIRE_GEM_BRICKS);
             entries.add(ModBlocks.FIRE_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.FIRE_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.FIRE_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_FIRE_GEM_BRICKS);
             entries.add(ModBlocks.FLYING_GEM_BRICKS);
             entries.add(ModBlocks.FLYING_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.FLYING_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.FLYING_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_FLYING_GEM_BRICKS);
             entries.add(ModBlocks.GHOST_GEM_BRICKS);
             entries.add(ModBlocks.GHOST_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.GHOST_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.GHOST_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_GHOST_GEM_BRICKS);
             entries.add(ModBlocks.GRASS_GEM_BRICKS);
             entries.add(ModBlocks.GRASS_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.GRASS_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.GRASS_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_GRASS_GEM_BRICKS);
             entries.add(ModBlocks.GROUND_GEM_BRICKS);
             entries.add(ModBlocks.GROUND_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.GROUND_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.GROUND_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_GROUND_GEM_BRICKS);
             entries.add(ModBlocks.ICE_GEM_BRICKS);
             entries.add(ModBlocks.ICE_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.ICE_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.ICE_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_ICE_GEM_BRICKS);
             entries.add(ModBlocks.NORMAL_GEM_BRICKS);
             entries.add(ModBlocks.NORMAL_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.NORMAL_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.NORMAL_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_NORMAL_GEM_BRICKS);
             entries.add(ModBlocks.POISON_GEM_BRICKS);
             entries.add(ModBlocks.POISON_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.POISON_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.POISON_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_POISON_GEM_BRICKS);
             entries.add(ModBlocks.PSYCHIC_GEM_BRICKS);
             entries.add(ModBlocks.PSYCHIC_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.PSYCHIC_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.PSYCHIC_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_PSYCHIC_GEM_BRICKS);
             entries.add(ModBlocks.ROCK_GEM_BRICKS);
             entries.add(ModBlocks.ROCK_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.ROCK_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.ROCK_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_ROCK_GEM_BRICKS);
             entries.add(ModBlocks.STEEL_GEM_BRICKS);
             entries.add(ModBlocks.STEEL_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.STEEL_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.STEEL_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_STEEL_GEM_BRICKS);
             entries.add(ModBlocks.WATER_GEM_BRICKS);
             entries.add(ModBlocks.WATER_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.WATER_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.WATER_GEM_BRICKS_WALL);
+            entries.add(ModBlocks.CHISELED_WATER_GEM_BRICKS);
         });
     }
 }

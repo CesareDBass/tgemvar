@@ -9,86 +9,103 @@
   "block.tgemvar.dark_gem_bricks_stairs": "Dark Gem Block Bricks Stairs",
   "block.tgemvar.dark_gem_bricks_slab": "Dark Gem Block Bricks Slab",
   "block.tgemvar.dark_gem_bricks_wall": "Dark Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_dark_gem_bricks": "Chiseled Dark Gem Block Bricks",
 
   "block.tgemvar.dragon_gem_bricks": "Dragon Gem Block Bricks",
   "block.tgemvar.dragon_gem_bricks_stairs": "Dragon Gem Block Bricks Stairs",
   "block.tgemvar.dragon_gem_bricks_slab": "Dragon Gem Block Bricks Slab",
   "block.tgemvar.dragon_gem_bricks_wall": "Dragon Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_dragon_gem_bricks": "Chiseled Dragon Gem Block Bricks",
 
   "block.tgemvar.electric_gem_bricks": "Electric Gem Block Bricks",
   "block.tgemvar.electric_gem_bricks_stairs": "Electric Gem Block Bricks Stairs",
   "block.tgemvar.electric_gem_bricks_slab": "Electric Gem Block Bricks Slab",
   "block.tgemvar.electric_gem_bricks_wall": "Electric Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_electric_gem_bricks": "Chiseled Electric Gem Block Bricks",
 
   "block.tgemvar.fairy_gem_bricks": "Fairy Gem Block Bricks",
   "block.tgemvar.fairy_gem_bricks_stairs": "Fairy Gem Block Bricks Stairs",
   "block.tgemvar.fairy_gem_bricks_slab": "Fairy Gem Block Bricks Slab",
   "block.tgemvar.fairy_gem_bricks_wall": "Fairy Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_fairy_gem_bricks": "Chiseled Fairy Gem Block Bricks",
 
   "block.tgemvar.fighting_gem_bricks": "Fighting Gem Block Bricks",
   "block.tgemvar.fighting_gem_bricks_stairs": "Fighting Gem Block Bricks Stairs",
   "block.tgemvar.fighting_gem_bricks_slab": "Fighting Gem Block Bricks Slab",
   "block.tgemvar.fighting_gem_bricks_wall": "Fighting Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_fighting_gem_bricks": "Chiseled Fighting Gem Block Bricks",
 
   "block.tgemvar.fire_gem_bricks": "Fire Gem Block Bricks",
   "block.tgemvar.fire_gem_bricks_stairs": "Fire Gem Block Bricks Stairs",
   "block.tgemvar.fire_gem_bricks_slab": "Fire Gem Block Bricks Slab",
   "block.tgemvar.fire_gem_bricks_wall": "Fire Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_fire_gem_bricks": "Chiseled Fire Gem Block Bricks",
 
   "block.tgemvar.flying_gem_bricks": "Flying Gem Block Bricks",
   "block.tgemvar.flying_gem_bricks_stairs": "Flying Gem Block Bricks Stairs",
   "block.tgemvar.flying_gem_bricks_slab": "Flying Gem Block Bricks Slab",
   "block.tgemvar.flying_gem_bricks_wall": "Flying Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_flying_gem_bricks": "Chiseled Flying Gem Block Bricks",
 
   "block.tgemvar.ghost_gem_bricks": "Ghost Gem Block Bricks",
   "block.tgemvar.ghost_gem_bricks_stairs": "Ghost Gem Block Bricks Stairs",
   "block.tgemvar.ghost_gem_bricks_slab": "Ghost Gem Block Bricks Slab",
   "block.tgemvar.ghost_gem_bricks_wall": "Ghost Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_ghost_gem_bricks": "Chiseled Ghost Gem Block Bricks",
 
   "block.tgemvar.grass_gem_bricks": "Grass Gem Block Bricks",
   "block.tgemvar.grass_gem_bricks_stairs": "Grass Gem Block Bricks Stairs",
   "block.tgemvar.grass_gem_bricks_slab": "Grass Gem Block Bricks Slab",
   "block.tgemvar.grass_gem_bricks_wall": "Grass Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_grass_gem_bricks": "Chiseled Grass Gem Block Bricks",
 
   "block.tgemvar.ground_gem_bricks": "Ground Gem Block Bricks",
   "block.tgemvar.ground_gem_bricks_stairs": "Ground Gem Block Bricks Stairs",
   "block.tgemvar.ground_gem_bricks_slab": "Ground Gem Block Bricks Slab",
   "block.tgemvar.ground_gem_bricks_wall": "Ground Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_ground_gem_bricks": "Chiseled Ground Gem Block Bricks",
 
   "block.tgemvar.ice_gem_bricks": "Ice Gem Block Bricks",
   "block.tgemvar.ice_gem_bricks_stairs": "Ice Gem Block Bricks Stairs",
   "block.tgemvar.ice_gem_bricks_slab": "Ice Gem Block Bricks Slab",
   "block.tgemvar.ice_gem_bricks_wall": "Ice Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_ice_gem_bricks": "Chiseled Ice Gem Block Bricks",
 
   "block.tgemvar.normal_gem_bricks": "Normal Gem Block Bricks",
   "block.tgemvar.normal_gem_bricks_stairs": "Normal Gem Block Bricks Stairs",
   "block.tgemvar.normal_gem_bricks_slab": "Normal Gem Block Bricks Slab",
   "block.tgemvar.normal_gem_bricks_wall": "Normal Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_normal_gem_bricks": "Chiseled Normal Gem Block Bricks",
 
   "block.tgemvar.poison_gem_bricks": "Poison Gem Block Bricks",
   "block.tgemvar.poison_gem_bricks_stairs": "Poison Gem Block Bricks Stairs",
   "block.tgemvar.poison_gem_bricks_slab": "Poison Gem Block Bricks Slab",
   "block.tgemvar.poison_gem_bricks_wall": "Poison Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_poison_gem_bricks": "Chiseled Poison Gem Block Bricks",
 
   "block.tgemvar.psychic_gem_bricks": "Psychic Gem Block Bricks",
   "block.tgemvar.psychic_gem_bricks_stairs": "Psychic Gem Block Bricks Stairs",
   "block.tgemvar.psychic_gem_bricks_slab": "Psychic Gem Block Bricks Slab",
   "block.tgemvar.psychic_gem_bricks_wall": "Psychic Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_psychic_gem_bricks": "Chiseled Psychic Gem Block Bricks",
 
   "block.tgemvar.rock_gem_bricks": "Rock Gem Block Bricks",
   "block.tgemvar.rock_gem_bricks_stairs": "Rock Gem Block Bricks Stairs",
   "block.tgemvar.rock_gem_bricks_slab": "Rock Gem Block Bricks Slab",
   "block.tgemvar.rock_gem_bricks_wall": "Rock Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_rock_gem_bricks": "Chiseled Rock Gem Block Bricks",
 
   "block.tgemvar.steel_gem_bricks": "Steel Gem Block Bricks",
   "block.tgemvar.steel_gem_bricks_stairs": "Steel Gem Block Bricks Stairs",
   "block.tgemvar.steel_gem_bricks_slab": "Steel Gem Block Bricks Slab",
   "block.tgemvar.steel_gem_bricks_wall": "Steel Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_steel_gem_bricks": "Chiseled Steel Gem Block Bricks",
 
   "block.tgemvar.water_gem_bricks": "Water Gem Block Bricks",
   "block.tgemvar.water_gem_bricks_stairs": "Water Gem Block Bricks Stairs",
   "block.tgemvar.water_gem_bricks_slab": "Water Gem Block Bricks Slab",
   "block.tgemvar.water_gem_bricks_wall": "Water Gem Block Bricks Wall",
+  "block.tgemvar.chiseled_water_gem_bricks": "Chiseled Water Gem Block Bricks",
 
   "itemgroup.tgemvar.type_block_variants": "Type Gem Blocks Variants"
 }

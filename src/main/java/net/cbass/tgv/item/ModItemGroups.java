@@ -30,86 +30,103 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DARK_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.DARK_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.DARK_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_DARK_GEM_BRICKS);
 
                         entries.add(ModBlocks.DRAGON_GEM_BRICKS);
                         entries.add(ModBlocks.DRAGON_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.DRAGON_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.DRAGON_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_DRAGON_GEM_BRICKS);
 
                         entries.add(ModBlocks.ELECTRIC_GEM_BRICKS);
                         entries.add(ModBlocks.ELECTRIC_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.ELECTRIC_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.ELECTRIC_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_ELECTRIC_GEM_BRICKS);
 
                         entries.add(ModBlocks.FAIRY_GEM_BRICKS);
                         entries.add(ModBlocks.FAIRY_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.FAIRY_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.FAIRY_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_FAIRY_GEM_BRICKS);
 
                         entries.add(ModBlocks.FIGHTING_GEM_BRICKS);
                         entries.add(ModBlocks.FIGHTING_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.FIGHTING_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.FIGHTING_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_FIGHTING_GEM_BRICKS);
 
                         entries.add(ModBlocks.FIRE_GEM_BRICKS);
                         entries.add(ModBlocks.FIRE_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.FIRE_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.FIRE_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_FIRE_GEM_BRICKS);
 
                         entries.add(ModBlocks.FLYING_GEM_BRICKS);
                         entries.add(ModBlocks.FLYING_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.FLYING_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.FLYING_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_FLYING_GEM_BRICKS);
 
                         entries.add(ModBlocks.GHOST_GEM_BRICKS);
                         entries.add(ModBlocks.GHOST_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.GHOST_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.GHOST_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_GHOST_GEM_BRICKS);
 
                         entries.add(ModBlocks.GRASS_GEM_BRICKS);
                         entries.add(ModBlocks.GRASS_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.GRASS_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.GRASS_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_GRASS_GEM_BRICKS);
 
                         entries.add(ModBlocks.GROUND_GEM_BRICKS);
                         entries.add(ModBlocks.GROUND_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.GROUND_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.GROUND_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_GROUND_GEM_BRICKS);
 
                         entries.add(ModBlocks.ICE_GEM_BRICKS);
                         entries.add(ModBlocks.ICE_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.ICE_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.ICE_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_ICE_GEM_BRICKS);
 
                         entries.add(ModBlocks.NORMAL_GEM_BRICKS);
                         entries.add(ModBlocks.NORMAL_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.NORMAL_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.NORMAL_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_NORMAL_GEM_BRICKS);
 
                         entries.add(ModBlocks.POISON_GEM_BRICKS);
                         entries.add(ModBlocks.POISON_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.POISON_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.POISON_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_POISON_GEM_BRICKS);
 
                         entries.add(ModBlocks.PSYCHIC_GEM_BRICKS);
                         entries.add(ModBlocks.PSYCHIC_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.PSYCHIC_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.PSYCHIC_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_PSYCHIC_GEM_BRICKS);
 
                         entries.add(ModBlocks.ROCK_GEM_BRICKS);
                         entries.add(ModBlocks.ROCK_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.ROCK_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.ROCK_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_ROCK_GEM_BRICKS);
 
                         entries.add(ModBlocks.STEEL_GEM_BRICKS);
                         entries.add(ModBlocks.STEEL_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.STEEL_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.STEEL_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_STEEL_GEM_BRICKS);
 
                         entries.add(ModBlocks.WATER_GEM_BRICKS);
                         entries.add(ModBlocks.WATER_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.WATER_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.WATER_GEM_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_WATER_GEM_BRICKS);
                     }).build());
 
     public static void registerItemGroups() {
