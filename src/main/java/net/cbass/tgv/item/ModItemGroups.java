@@ -20,6 +20,96 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.NORMAL_GEM_BRICKS))
                     .displayName(Text.translatable("itemgroup.tgemvar.type_block_variants"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.POLISHED_BUG_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_BUG_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_BUG_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_BUG_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_DARK_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_DARK_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_DARK_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_DARK_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_DRAGON_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_DRAGON_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_DRAGON_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_DRAGON_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_ELECTRIC_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_ELECTRIC_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_ELECTRIC_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_ELECTRIC_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_FAIRY_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_FAIRY_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_FAIRY_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_FAIRY_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_FIGHTING_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_FIGHTING_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_FIGHTING_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_FIGHTING_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_FIRE_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_FIRE_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_FIRE_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_FIRE_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_FLYING_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_FLYING_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_FLYING_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_FLYING_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_GHOST_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_GHOST_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_GHOST_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_GHOST_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_GRASS_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_GRASS_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_GRASS_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_GRASS_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_GROUND_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_GROUND_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_GROUND_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_GROUND_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_ICE_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_ICE_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_ICE_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_ICE_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_NORMAL_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_NORMAL_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_NORMAL_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_NORMAL_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_POISON_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_POISON_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_POISON_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_POISON_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_PSYCHIC_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_PSYCHIC_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_PSYCHIC_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_PSYCHIC_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_ROCK_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_ROCK_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_ROCK_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_ROCK_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_STEEL_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_STEEL_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_STEEL_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_STEEL_GEM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_WATER_GEM_BLOCK);
+                        entries.add(ModBlocks.POLISHED_WATER_GEM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_WATER_GEM_SLAB);
+                        entries.add(ModBlocks.POLISHED_WATER_GEM_WALL);
+
                         entries.add(ModBlocks.BUG_GEM_BRICKS);
                         entries.add(ModBlocks.BUG_GEM_BRICKS_STAIRS);
                         entries.add(ModBlocks.BUG_GEM_BRICKS_SLAB);

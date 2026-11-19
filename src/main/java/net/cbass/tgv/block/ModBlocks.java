@@ -13,6 +13,276 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+    public static final Block POLISHED_BUG_GEM_BLOCK = registerBlock("polished_bug_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_LIME)));
+    public static final Block POLISHED_BUG_GEM_STAIRS = registerBlock("polished_bug_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_BUG_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.TERRACOTTA_LIME)));
+    public static final Block POLISHED_BUG_GEM_SLAB = registerBlock("polished_bug_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_LIME)));
+    public static final Block POLISHED_BUG_GEM_WALL = registerBlock("polished_bug_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_LIME)));
+
+    public static final Block POLISHED_DARK_GEM_BLOCK = registerBlock("polished_dark_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block POLISHED_DARK_GEM_STAIRS = registerBlock("polished_dark_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_DARK_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block POLISHED_DARK_GEM_SLAB = registerBlock("polished_dark_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block POLISHED_DARK_GEM_WALL = registerBlock("polished_dark_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_BLACK)));
+
+    public static final Block POLISHED_DRAGON_GEM_BLOCK = registerBlock("polished_dragon_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.BLUE)));
+    public static final Block POLISHED_DRAGON_GEM_STAIRS = registerBlock("polished_dragon_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_DRAGON_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.BLUE)));
+    public static final Block POLISHED_DRAGON_GEM_SLAB = registerBlock("polished_dragon_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.BLUE)));
+    public static final Block POLISHED_DRAGON_GEM_WALL = registerBlock("polished_dragon_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.BLUE)));
+
+    public static final Block POLISHED_ELECTRIC_GEM_BLOCK = registerBlock("polished_electric_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.GOLD)));
+    public static final Block POLISHED_ELECTRIC_GEM_STAIRS = registerBlock("polished_electric_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_ELECTRIC_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.GOLD)));
+    public static final Block POLISHED_ELECTRIC_GEM_SLAB = registerBlock("polished_electric_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.GOLD)));
+    public static final Block POLISHED_ELECTRIC_GEM_WALL = registerBlock("polished_electric_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.GOLD)));
+
+    public static final Block POLISHED_FAIRY_GEM_BLOCK = registerBlock("polished_fairy_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PINK)));
+    public static final Block POLISHED_FAIRY_GEM_STAIRS = registerBlock("polished_fairy_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_FAIRY_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.PINK)));
+    public static final Block POLISHED_FAIRY_GEM_SLAB = registerBlock("polished_fairy_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PINK)));
+    public static final Block POLISHED_FAIRY_GEM_WALL = registerBlock("polished_fairy_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PINK)));
+
+    public static final Block POLISHED_FIGHTING_GEM_BLOCK = registerBlock("polished_fighting_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.RED)));
+    public static final Block POLISHED_FIGHTING_GEM_STAIRS = registerBlock("polished_fighting_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_FIGHTING_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.RED)));
+    public static final Block POLISHED_FIGHTING_GEM_SLAB = registerBlock("polished_fighting_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.RED)));
+    public static final Block POLISHED_FIGHTING_GEM_WALL = registerBlock("polished_fighting_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.RED)));
+
+    public static final Block POLISHED_FIRE_GEM_BLOCK = registerBlock("polished_fire_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.BRIGHT_RED)));
+    public static final Block POLISHED_FIRE_GEM_STAIRS = registerBlock("polished_fire_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_FIRE_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.BRIGHT_RED)));
+    public static final Block POLISHED_FIRE_GEM_SLAB = registerBlock("polished_fire_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.BRIGHT_RED)));
+    public static final Block POLISHED_FIRE_GEM_WALL = registerBlock("polished_fire_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.BRIGHT_RED)));
+
+    public static final Block POLISHED_FLYING_GEM_BLOCK = registerBlock("polished_flying_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.LIGHT_BLUE)));
+    public static final Block POLISHED_FLYING_GEM_STAIRS = registerBlock("polished_flying_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_FLYING_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.LIGHT_BLUE)));
+    public static final Block POLISHED_FLYING_GEM_SLAB = registerBlock("polished_flying_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.LIGHT_BLUE)));
+    public static final Block POLISHED_FLYING_GEM_WALL = registerBlock("polished_flying_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.LIGHT_BLUE)));
+
+    public static final Block POLISHED_GHOST_GEM_BLOCK = registerBlock("polished_ghost_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+    public static final Block POLISHED_GHOST_GEM_STAIRS = registerBlock("polished_ghost_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_GHOST_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+    public static final Block POLISHED_GHOST_GEM_SLAB = registerBlock("polished_ghost_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+    public static final Block POLISHED_GHOST_GEM_WALL = registerBlock("polished_ghost_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+
+    public static final Block POLISHED_GRASS_GEM_BLOCK = registerBlock("polished_grass_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.LIME)));
+    public static final Block POLISHED_GRASS_GEM_STAIRS = registerBlock("polished_grass_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_GRASS_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.LIME)));
+    public static final Block POLISHED_GRASS_GEM_SLAB = registerBlock("polished_grass_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.LIME)));
+    public static final Block POLISHED_GRASS_GEM_WALL = registerBlock("polished_grass_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.LIME)));
+
+    public static final Block POLISHED_GROUND_GEM_BLOCK = registerBlock("polished_ground_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.SPRUCE_BROWN)));
+    public static final Block POLISHED_GROUND_GEM_STAIRS = registerBlock("polished_ground_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_GROUND_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.SPRUCE_BROWN)));
+    public static final Block POLISHED_GROUND_GEM_SLAB = registerBlock("polished_ground_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.SPRUCE_BROWN)));
+    public static final Block POLISHED_GROUND_GEM_WALL = registerBlock("polished_ground_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.SPRUCE_BROWN)));
+
+    public static final Block POLISHED_ICE_GEM_BLOCK = registerBlock("polished_ice_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block POLISHED_ICE_GEM_STAIRS = registerBlock("polished_ice_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_ICE_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block POLISHED_ICE_GEM_SLAB = registerBlock("polished_ice_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block POLISHED_ICE_GEM_WALL = registerBlock("polished_ice_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PALE_PURPLE)));
+
+    public static final Block POLISHED_NORMAL_GEM_BLOCK = registerBlock("polished_normal_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.WHITE)));
+    public static final Block POLISHED_NORMAL_GEM_STAIRS = registerBlock("polished_normal_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_NORMAL_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.WHITE)));
+    public static final Block POLISHED_NORMAL_GEM_SLAB = registerBlock("polished_normal_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.WHITE)));
+    public static final Block POLISHED_NORMAL_GEM_WALL = registerBlock("polished_normal_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.WHITE)));
+
+    public static final Block POLISHED_POISON_GEM_BLOCK = registerBlock("polished_poison_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PURPLE)));
+    public static final Block POLISHED_POISON_GEM_STAIRS = registerBlock("polished_poison_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_POISON_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.PURPLE)));
+    public static final Block POLISHED_POISON_GEM_SLAB = registerBlock("polished_poison_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PURPLE)));
+    public static final Block POLISHED_POISON_GEM_WALL = registerBlock("polished_poison_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PURPLE)));
+
+    public static final Block POLISHED_PSYCHIC_GEM_BLOCK = registerBlock("polished_psychic_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.MAGENTA)));
+    public static final Block POLISHED_PSYCHIC_GEM_STAIRS = registerBlock("polished_psychic_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_PSYCHIC_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.MAGENTA)));
+    public static final Block POLISHED_PSYCHIC_GEM_SLAB = registerBlock("polished_psychic_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.MAGENTA)));
+    public static final Block POLISHED_PSYCHIC_GEM_WALL = registerBlock("polished_psychic_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.MAGENTA)));
+
+    public static final Block POLISHED_ROCK_GEM_BLOCK = registerBlock("polished_rock_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+    public static final Block POLISHED_ROCK_GEM_STAIRS = registerBlock("polished_rock_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_ROCK_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+    public static final Block POLISHED_ROCK_GEM_SLAB = registerBlock("polished_rock_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+    public static final Block POLISHED_ROCK_GEM_WALL = registerBlock("polished_rock_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+
+    public static final Block POLISHED_STEEL_GEM_BLOCK = registerBlock("polished_steel_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.IRON_GRAY)));
+    public static final Block POLISHED_STEEL_GEM_STAIRS = registerBlock("polished_steel_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_STEEL_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.IRON_GRAY)));
+    public static final Block POLISHED_STEEL_GEM_SLAB = registerBlock("polished_steel_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.IRON_GRAY)));
+    public static final Block POLISHED_STEEL_GEM_WALL = registerBlock("polished_steel_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.IRON_GRAY)));
+
+    public static final Block POLISHED_WATER_GEM_BLOCK = registerBlock("polished_water_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.WATER_BLUE)));
+    public static final Block POLISHED_WATER_GEM_STAIRS = registerBlock("polished_water_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_WATER_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.WATER_BLUE)));
+    public static final Block POLISHED_WATER_GEM_SLAB = registerBlock("polished_water_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.WATER_BLUE)));
+    public static final Block POLISHED_WATER_GEM_WALL = registerBlock("polished_water_gem_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.WATER_BLUE)));
+
     public static final Block BUG_GEM_BRICKS = registerBlock("bug_gem_bricks",
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
@@ -371,6 +641,79 @@ public class ModBlocks {
         TypeGemsVariant.LOGGER.info("Registering Mod Blocks for " + TypeGemsVariant.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+            entries.add(ModBlocks.POLISHED_BUG_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_BUG_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_BUG_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_BUG_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_DARK_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_DARK_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_DARK_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_DARK_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_DRAGON_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_DRAGON_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_DRAGON_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_DRAGON_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_ELECTRIC_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_ELECTRIC_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_ELECTRIC_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_ELECTRIC_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_FAIRY_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_FAIRY_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_FAIRY_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_FAIRY_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_FIGHTING_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_FIGHTING_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_FIGHTING_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_FIGHTING_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_FIRE_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_FIRE_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_FIRE_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_FIRE_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_FLYING_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_FLYING_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_FLYING_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_FLYING_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_GHOST_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_GHOST_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_GHOST_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_GHOST_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_GRASS_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_GRASS_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_GRASS_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_GRASS_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_GROUND_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_GROUND_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_GROUND_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_GROUND_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_ICE_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_ICE_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_ICE_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_ICE_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_NORMAL_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_NORMAL_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_NORMAL_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_NORMAL_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_POISON_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_POISON_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_POISON_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_POISON_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_PSYCHIC_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_PSYCHIC_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_PSYCHIC_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_PSYCHIC_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_ROCK_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_ROCK_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_ROCK_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_ROCK_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_STEEL_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_STEEL_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_STEEL_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_STEEL_GEM_WALL);
+            entries.add(ModBlocks.POLISHED_WATER_GEM_BLOCK);
+            entries.add(ModBlocks.POLISHED_WATER_GEM_STAIRS);
+            entries.add(ModBlocks.POLISHED_WATER_GEM_SLAB);
+            entries.add(ModBlocks.POLISHED_WATER_GEM_WALL);
+
             entries.add(ModBlocks.BUG_GEM_BRICKS);
             entries.add(ModBlocks.BUG_GEM_BRICKS_STAIRS);
             entries.add(ModBlocks.BUG_GEM_BRICKS_SLAB);

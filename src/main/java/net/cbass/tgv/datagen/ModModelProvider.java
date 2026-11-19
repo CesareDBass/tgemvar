@@ -16,6 +16,96 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        BlockStateModelGenerator.BlockTexturePool PolishedBugPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_BUG_GEM_BLOCK);
+        PolishedBugPool.stairs(ModBlocks.POLISHED_BUG_GEM_STAIRS);
+        PolishedBugPool.slab(ModBlocks.POLISHED_BUG_GEM_SLAB);
+        PolishedBugPool.wall(ModBlocks.POLISHED_BUG_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedDarkPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_DARK_GEM_BLOCK);
+        PolishedDarkPool.stairs(ModBlocks.POLISHED_DARK_GEM_STAIRS);
+        PolishedDarkPool.slab(ModBlocks.POLISHED_DARK_GEM_SLAB);
+        PolishedDarkPool.wall(ModBlocks.POLISHED_DARK_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedDragonPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_DRAGON_GEM_BLOCK);
+        PolishedDragonPool.stairs(ModBlocks.POLISHED_DRAGON_GEM_STAIRS);
+        PolishedDragonPool.slab(ModBlocks.POLISHED_DRAGON_GEM_SLAB);
+        PolishedDragonPool.wall(ModBlocks.POLISHED_DRAGON_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedElectricPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_ELECTRIC_GEM_BLOCK);
+        PolishedElectricPool.stairs(ModBlocks.POLISHED_ELECTRIC_GEM_STAIRS);
+        PolishedElectricPool.slab(ModBlocks.POLISHED_ELECTRIC_GEM_SLAB);
+        PolishedElectricPool.wall(ModBlocks.POLISHED_ELECTRIC_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedFairyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_FAIRY_GEM_BLOCK);
+        PolishedFairyPool.stairs(ModBlocks.POLISHED_FAIRY_GEM_STAIRS);
+        PolishedFairyPool.slab(ModBlocks.POLISHED_FAIRY_GEM_SLAB);
+        PolishedFairyPool.wall(ModBlocks.POLISHED_FAIRY_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedFightingPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_FIGHTING_GEM_BLOCK);
+        PolishedFightingPool.stairs(ModBlocks.POLISHED_FIGHTING_GEM_STAIRS);
+        PolishedFightingPool.slab(ModBlocks.POLISHED_FIGHTING_GEM_SLAB);
+        PolishedFightingPool.wall(ModBlocks.POLISHED_FIGHTING_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedFirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_FIRE_GEM_BLOCK);
+        PolishedFirePool.stairs(ModBlocks.POLISHED_FIRE_GEM_STAIRS);
+        PolishedFirePool.slab(ModBlocks.POLISHED_FIRE_GEM_SLAB);
+        PolishedFirePool.wall(ModBlocks.POLISHED_FIRE_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedFlyingPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_FLYING_GEM_BLOCK);
+        PolishedFlyingPool.stairs(ModBlocks.POLISHED_FLYING_GEM_STAIRS);
+        PolishedFlyingPool.slab(ModBlocks.POLISHED_FLYING_GEM_SLAB);
+        PolishedFlyingPool.wall(ModBlocks.POLISHED_FLYING_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedGhostPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_GHOST_GEM_BLOCK);
+        PolishedGhostPool.stairs(ModBlocks.POLISHED_GHOST_GEM_STAIRS);
+        PolishedGhostPool.slab(ModBlocks.POLISHED_GHOST_GEM_SLAB);
+        PolishedGhostPool.wall(ModBlocks.POLISHED_GHOST_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedGrassPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_GRASS_GEM_BLOCK);
+        PolishedGrassPool.stairs(ModBlocks.POLISHED_GRASS_GEM_STAIRS);
+        PolishedGrassPool.slab(ModBlocks.POLISHED_GRASS_GEM_SLAB);
+        PolishedGrassPool.wall(ModBlocks.POLISHED_GRASS_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedGroundPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_GROUND_GEM_BLOCK);
+        PolishedGroundPool.stairs(ModBlocks.POLISHED_GROUND_GEM_STAIRS);
+        PolishedGroundPool.slab(ModBlocks.POLISHED_GROUND_GEM_SLAB);
+        PolishedGroundPool.wall(ModBlocks.POLISHED_GROUND_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedIcePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_ICE_GEM_BLOCK);
+        PolishedIcePool.stairs(ModBlocks.POLISHED_ICE_GEM_STAIRS);
+        PolishedIcePool.slab(ModBlocks.POLISHED_ICE_GEM_SLAB);
+        PolishedIcePool.wall(ModBlocks.POLISHED_ICE_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedNormalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_NORMAL_GEM_BLOCK);
+        PolishedNormalPool.stairs(ModBlocks.POLISHED_NORMAL_GEM_STAIRS);
+        PolishedNormalPool.slab(ModBlocks.POLISHED_NORMAL_GEM_SLAB);
+        PolishedNormalPool.wall(ModBlocks.POLISHED_NORMAL_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedPoisonPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_POISON_GEM_BLOCK);
+        PolishedPoisonPool.stairs(ModBlocks.POLISHED_POISON_GEM_STAIRS);
+        PolishedPoisonPool.slab(ModBlocks.POLISHED_POISON_GEM_SLAB);
+        PolishedPoisonPool.wall(ModBlocks.POLISHED_POISON_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedPsychicPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_PSYCHIC_GEM_BLOCK);
+        PolishedPsychicPool.stairs(ModBlocks.POLISHED_PSYCHIC_GEM_STAIRS);
+        PolishedPsychicPool.slab(ModBlocks.POLISHED_PSYCHIC_GEM_SLAB);
+        PolishedPsychicPool.wall(ModBlocks.POLISHED_PSYCHIC_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedRockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_ROCK_GEM_BLOCK);
+        PolishedRockPool.stairs(ModBlocks.POLISHED_ROCK_GEM_STAIRS);
+        PolishedRockPool.slab(ModBlocks.POLISHED_ROCK_GEM_SLAB);
+        PolishedRockPool.wall(ModBlocks.POLISHED_ROCK_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedSteelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_STEEL_GEM_BLOCK);
+        PolishedSteelPool.stairs(ModBlocks.POLISHED_STEEL_GEM_STAIRS);
+        PolishedSteelPool.slab(ModBlocks.POLISHED_STEEL_GEM_SLAB);
+        PolishedSteelPool.wall(ModBlocks.POLISHED_STEEL_GEM_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool PolishedWaterPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_WATER_GEM_BLOCK);
+        PolishedWaterPool.stairs(ModBlocks.POLISHED_WATER_GEM_STAIRS);
+        PolishedWaterPool.slab(ModBlocks.POLISHED_WATER_GEM_SLAB);
+        PolishedWaterPool.wall(ModBlocks.POLISHED_WATER_GEM_WALL);
+
         BlockStateModelGenerator.BlockTexturePool BugBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BUG_GEM_BRICKS);
         BugBricksPool.stairs(ModBlocks.BUG_GEM_BRICKS_STAIRS);
         BugBricksPool.slab(ModBlocks.BUG_GEM_BRICKS_SLAB);

@@ -14,6 +14,96 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        addDrop(ModBlocks.POLISHED_BUG_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_BUG_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_BUG_GEM_SLAB, slabDrops(ModBlocks.POLISHED_BUG_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_BUG_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_DARK_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_DARK_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_DARK_GEM_SLAB, slabDrops(ModBlocks.POLISHED_DARK_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_DARK_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_DRAGON_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_DRAGON_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_DRAGON_GEM_SLAB, slabDrops(ModBlocks.POLISHED_DRAGON_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_DRAGON_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_ELECTRIC_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_ELECTRIC_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_ELECTRIC_GEM_SLAB, slabDrops(ModBlocks.POLISHED_ELECTRIC_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_ELECTRIC_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_FAIRY_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_FAIRY_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_FAIRY_GEM_SLAB, slabDrops(ModBlocks.POLISHED_FAIRY_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_FAIRY_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_FIGHTING_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_FIGHTING_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_FIGHTING_GEM_SLAB, slabDrops(ModBlocks.POLISHED_FIGHTING_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_FIGHTING_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_FIRE_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_FIRE_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_FIRE_GEM_SLAB, slabDrops(ModBlocks.POLISHED_FIRE_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_FIRE_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_FLYING_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_FLYING_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_FLYING_GEM_SLAB, slabDrops(ModBlocks.POLISHED_FLYING_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_FLYING_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_GHOST_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_GHOST_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_GHOST_GEM_SLAB, slabDrops(ModBlocks.POLISHED_GHOST_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_GHOST_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_GRASS_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_GRASS_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_GRASS_GEM_SLAB, slabDrops(ModBlocks.POLISHED_GRASS_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_GRASS_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_GROUND_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_GROUND_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_GROUND_GEM_SLAB, slabDrops(ModBlocks.POLISHED_GROUND_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_GROUND_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_ICE_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_ICE_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_ICE_GEM_SLAB, slabDrops(ModBlocks.POLISHED_ICE_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_ICE_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_NORMAL_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_NORMAL_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_NORMAL_GEM_SLAB, slabDrops(ModBlocks.POLISHED_NORMAL_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_NORMAL_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_POISON_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_POISON_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_POISON_GEM_SLAB, slabDrops(ModBlocks.POLISHED_POISON_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_POISON_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_PSYCHIC_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_PSYCHIC_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_PSYCHIC_GEM_SLAB, slabDrops(ModBlocks.POLISHED_PSYCHIC_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_PSYCHIC_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_ROCK_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_ROCK_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_ROCK_GEM_SLAB, slabDrops(ModBlocks.POLISHED_ROCK_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_ROCK_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_STEEL_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_STEEL_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_STEEL_GEM_SLAB, slabDrops(ModBlocks.POLISHED_STEEL_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_STEEL_GEM_WALL);
+
+        addDrop(ModBlocks.POLISHED_WATER_GEM_BLOCK);
+        addDrop(ModBlocks.POLISHED_WATER_GEM_STAIRS);
+        addDrop(ModBlocks.POLISHED_WATER_GEM_SLAB, slabDrops(ModBlocks.POLISHED_WATER_GEM_SLAB));
+        addDrop(ModBlocks.POLISHED_WATER_GEM_WALL);
+
         addDrop(ModBlocks.BUG_GEM_BRICKS);
         addDrop(ModBlocks.BUG_GEM_BRICKS_STAIRS);
         addDrop(ModBlocks.BUG_GEM_BRICKS_SLAB, slabDrops(ModBlocks.BUG_GEM_BRICKS_SLAB));

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tgemvar:block/polished_ice_gem_block",
+    "side": "tgemvar:block/polished_ice_gem_block_slab"
+  }
+}
