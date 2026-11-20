@@ -217,6 +217,96 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WATER_GEM_BRICKS_SLAB);
                         entries.add(ModBlocks.WATER_GEM_BRICKS_WALL);
                         entries.add(ModBlocks.CHISELED_WATER_GEM_BRICKS);
+
+                        entries.add(ModBlocks.SMOOTH_BUG_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_BUG_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_BUG_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_BUG_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_DARK_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_DARK_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_DARK_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_DARK_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_DRAGON_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_DRAGON_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_DRAGON_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_DRAGON_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_ELECTRIC_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_ELECTRIC_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_ELECTRIC_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_ELECTRIC_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_FAIRY_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_FAIRY_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_FAIRY_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_FAIRY_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_FIGHTING_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_FIGHTING_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_FIGHTING_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_FIGHTING_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_FIRE_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_FIRE_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_FIRE_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_FIRE_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_FLYING_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_FLYING_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_FLYING_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_FLYING_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_GHOST_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_GHOST_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_GHOST_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_GHOST_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_GRASS_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_GRASS_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_GRASS_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_GRASS_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_GROUND_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_GROUND_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_GROUND_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_GROUND_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_ICE_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_ICE_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_ICE_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_ICE_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_NORMAL_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_NORMAL_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_NORMAL_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_NORMAL_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_POISON_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_POISON_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_POISON_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_POISON_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_PSYCHIC_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_PSYCHIC_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_PSYCHIC_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_PSYCHIC_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_ROCK_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_ROCK_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_ROCK_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_ROCK_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_STEEL_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_STEEL_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_STEEL_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_STEEL_GEM_BLOCK);
+
+                        entries.add(ModBlocks.SMOOTH_WATER_GEM_BLOCK);
+                        entries.add(ModBlocks.SMOOTH_WATER_GEM_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_WATER_GEM_SLAB);
+                        entries.add(ModBlocks.CHISELED_SMOOTH_WATER_GEM_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

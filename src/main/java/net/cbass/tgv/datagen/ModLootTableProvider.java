@@ -211,5 +211,95 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WATER_GEM_BRICKS_SLAB, slabDrops(ModBlocks.WATER_GEM_BRICKS_SLAB));
         addDrop(ModBlocks.WATER_GEM_BRICKS_WALL);
         addDrop(ModBlocks.CHISELED_WATER_GEM_BRICKS);
+
+        addDrop(ModBlocks.SMOOTH_BUG_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_BUG_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_BUG_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_BUG_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_BUG_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_DARK_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_DARK_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_DARK_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_DARK_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_DARK_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_DRAGON_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_DRAGON_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_DRAGON_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_DRAGON_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_DRAGON_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_ELECTRIC_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_ELECTRIC_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_ELECTRIC_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_ELECTRIC_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_ELECTRIC_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_FAIRY_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_FAIRY_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_FAIRY_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_FAIRY_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_FAIRY_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_FIGHTING_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_FIGHTING_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_FIGHTING_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_FIGHTING_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_FIGHTING_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_FIRE_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_FIRE_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_FIRE_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_FIRE_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_FIRE_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_FLYING_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_FLYING_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_FLYING_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_FLYING_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_FLYING_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_GHOST_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_GHOST_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_GHOST_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_GHOST_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_GHOST_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_GRASS_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_GRASS_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_GRASS_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_GRASS_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_GRASS_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_GROUND_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_GROUND_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_GROUND_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_GROUND_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_GROUND_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_ICE_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_ICE_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_ICE_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_ICE_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_ICE_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_NORMAL_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_NORMAL_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_NORMAL_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_NORMAL_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_NORMAL_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_POISON_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_POISON_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_POISON_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_POISON_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_POISON_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_PSYCHIC_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_PSYCHIC_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_PSYCHIC_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_PSYCHIC_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_PSYCHIC_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_ROCK_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_ROCK_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_ROCK_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_ROCK_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_ROCK_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_STEEL_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_STEEL_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_STEEL_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_STEEL_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_STEEL_GEM_BLOCK);
+
+        addDrop(ModBlocks.SMOOTH_WATER_GEM_BLOCK);
+        addDrop(ModBlocks.SMOOTH_WATER_GEM_STAIRS);
+        addDrop(ModBlocks.SMOOTH_WATER_GEM_SLAB, slabDrops(ModBlocks.SMOOTH_WATER_GEM_SLAB));
+        addDrop(ModBlocks.CHISELED_SMOOTH_WATER_GEM_BLOCK);
     }
 }

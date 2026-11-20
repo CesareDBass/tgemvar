@@ -625,6 +625,293 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
                     .mapColor(MapColor.WATER_BLUE)));
 
+    public static final Block SMOOTH_BUG_GEM_BLOCK = registerBlock("smooth_bug_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_LIME)));
+    public static final Block SMOOTH_BUG_GEM_STAIRS = registerBlock("smooth_bug_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_BUG_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.TERRACOTTA_LIME)));
+    public static final Block SMOOTH_BUG_GEM_SLAB = registerBlock("smooth_bug_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_LIME)));
+    public static final Block CHISELED_SMOOTH_BUG_GEM_BLOCK = registerBlock("chiseled_smooth_bug_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_LIME)));
+
+    public static final Block SMOOTH_DARK_GEM_BLOCK = registerBlock("smooth_dark_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block SMOOTH_DARK_GEM_STAIRS = registerBlock("smooth_dark_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_DARK_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block SMOOTH_DARK_GEM_SLAB = registerBlock("smooth_dark_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block CHISELED_SMOOTH_DARK_GEM_BLOCK = registerBlock("chiseled_smooth_dark_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_BLACK)));
+
+    public static final Block SMOOTH_DRAGON_GEM_BLOCK = registerBlock("smooth_dragon_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.BLUE)));
+    public static final Block SMOOTH_DRAGON_GEM_STAIRS = registerBlock("smooth_dragon_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_DRAGON_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.BLUE)));
+    public static final Block SMOOTH_DRAGON_GEM_SLAB = registerBlock("smooth_dragon_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.BLUE)));
+    public static final Block CHISELED_SMOOTH_DRAGON_GEM_BLOCK = registerBlock("chiseled_smooth_dragon_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.BLUE)));
+
+    public static final Block SMOOTH_ELECTRIC_GEM_BLOCK = registerBlock("smooth_electric_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.GOLD)));
+    public static final Block SMOOTH_ELECTRIC_GEM_STAIRS = registerBlock("smooth_electric_gem_stairs",
+            new StairsBlock(ModBlocks.POLISHED_ELECTRIC_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.GOLD)));
+    public static final Block SMOOTH_ELECTRIC_GEM_SLAB = registerBlock("smooth_electric_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.GOLD)));
+    public static final Block CHISELED_SMOOTH_ELECTRIC_GEM_BLOCK = registerBlock("chiseled_smooth_electric_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.GOLD)));
+
+    public static final Block SMOOTH_FAIRY_GEM_BLOCK = registerBlock("smooth_fairy_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PINK)));
+    public static final Block SMOOTH_FAIRY_GEM_STAIRS = registerBlock("smooth_fairy_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_FAIRY_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.PINK)));
+    public static final Block SMOOTH_FAIRY_GEM_SLAB = registerBlock("smooth_fairy_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PINK)));
+    public static final Block CHISELED_SMOOTH_FAIRY_GEM_BLOCK = registerBlock("chiseled_smooth_fairy_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PINK)));
+
+    public static final Block SMOOTH_FIGHTING_GEM_BLOCK = registerBlock("smooth_fighting_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.RED)));
+    public static final Block SMOOTH_FIGHTING_GEM_STAIRS = registerBlock("smooth_fighting_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_FIGHTING_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.RED)));
+    public static final Block SMOOTH_FIGHTING_GEM_SLAB = registerBlock("smooth_fighting_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.RED)));
+    public static final Block CHISELED_SMOOTH_FIGHTING_GEM_BLOCK = registerBlock("chiseled_smooth_fighting_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.RED)));
+
+    public static final Block SMOOTH_FIRE_GEM_BLOCK = registerBlock("smooth_fire_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.BRIGHT_RED)));
+    public static final Block SMOOTH_FIRE_GEM_STAIRS = registerBlock("smooth_fire_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_FIRE_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.BRIGHT_RED)));
+    public static final Block SMOOTH_FIRE_GEM_SLAB = registerBlock("smooth_fire_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.BRIGHT_RED)));
+    public static final Block CHISELED_SMOOTH_FIRE_GEM_BLOCK = registerBlock("chiseled_smooth_fire_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.BRIGHT_RED)));
+
+    public static final Block SMOOTH_FLYING_GEM_BLOCK = registerBlock("smooth_flying_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.LIGHT_BLUE)));
+    public static final Block SMOOTH_FLYING_GEM_STAIRS = registerBlock("smooth_flying_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_FLYING_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.LIGHT_BLUE)));
+    public static final Block SMOOTH_FLYING_GEM_SLAB = registerBlock("smooth_flying_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.LIGHT_BLUE)));
+    public static final Block CHISELED_SMOOTH_FLYING_GEM_BLOCK = registerBlock("chiseled_smooth_flying_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.LIGHT_BLUE)));
+
+    public static final Block SMOOTH_GHOST_GEM_BLOCK = registerBlock("smooth_ghost_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+    public static final Block SMOOTH_GHOST_GEM_STAIRS = registerBlock("smooth_ghost_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_GHOST_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+    public static final Block SMOOTH_GHOST_GEM_SLAB = registerBlock("smooth_ghost_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+    public static final Block CHISELED_SMOOTH_GHOST_GEM_BLOCK = registerBlock("chiseled_smooth_ghost_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA)));
+
+    public static final Block SMOOTH_GRASS_GEM_BLOCK = registerBlock("smooth_grass_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.LIME)));
+    public static final Block SMOOTH_GRASS_GEM_STAIRS = registerBlock("smooth_grass_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_GRASS_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.LIME)));
+    public static final Block SMOOTH_GRASS_GEM_SLAB = registerBlock("smooth_grass_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.LIME)));
+    public static final Block CHISELED_SMOOTH_GRASS_GEM_BLOCK = registerBlock("chiseled_smooth_grass_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.LIME)));
+
+    public static final Block SMOOTH_GROUND_GEM_BLOCK = registerBlock("smooth_ground_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.SPRUCE_BROWN)));
+    public static final Block SMOOTH_GROUND_GEM_STAIRS = registerBlock("smooth_ground_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_GROUND_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.SPRUCE_BROWN)));
+    public static final Block SMOOTH_GROUND_GEM_SLAB = registerBlock("smooth_ground_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.SPRUCE_BROWN)));
+    public static final Block CHISELED_SMOOTH_GROUND_GEM_BLOCK = registerBlock("chiseled_smooth_ground_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.SPRUCE_BROWN)));
+
+    public static final Block SMOOTH_ICE_GEM_BLOCK = registerBlock("smooth_ice_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block SMOOTH_ICE_GEM_STAIRS = registerBlock("smooth_ice_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_ICE_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block SMOOTH_ICE_GEM_SLAB = registerBlock("smooth_ice_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block CHISELED_SMOOTH_ICE_GEM_BLOCK = registerBlock("chiseled_smooth_ice_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+
+    public static final Block SMOOTH_NORMAL_GEM_BLOCK = registerBlock("smooth_normal_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.WHITE)));
+    public static final Block SMOOTH_NORMAL_GEM_STAIRS = registerBlock("smooth_normal_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_NORMAL_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.WHITE)));
+    public static final Block SMOOTH_NORMAL_GEM_SLAB = registerBlock("smooth_normal_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.WHITE)));
+    public static final Block CHISELED_SMOOTH_NORMAL_GEM_BLOCK = registerBlock("chiseled_smooth_normal_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.WHITE)));
+
+    public static final Block SMOOTH_POISON_GEM_BLOCK = registerBlock("smooth_poison_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PURPLE)));
+    public static final Block SMOOTH_POISON_GEM_STAIRS = registerBlock("smooth_poison_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_POISON_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.PURPLE)));
+    public static final Block SMOOTH_POISON_GEM_SLAB = registerBlock("smooth_poison_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.PURPLE)));
+    public static final Block CHISELED_SMOOTH_POISON_GEM_BLOCK = registerBlock("chiseled_smooth_poison_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.PURPLE)));
+
+    public static final Block SMOOTH_PSYCHIC_GEM_BLOCK = registerBlock("smooth_psychic_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.MAGENTA)));
+    public static final Block SMOOTH_PSYCHIC_GEM_STAIRS = registerBlock("smooth_psychic_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_PSYCHIC_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.MAGENTA)));
+    public static final Block SMOOTH_PSYCHIC_GEM_SLAB = registerBlock("smooth_psychic_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.MAGENTA)));
+    public static final Block CHISELED_SMOOTH_PSYCHIC_GEM_BLOCK = registerBlock("chiseled_smooth_psychic_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.MAGENTA)));
+
+    public static final Block SMOOTH_ROCK_GEM_BLOCK = registerBlock("smooth_rock_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+    public static final Block SMOOTH_ROCK_GEM_STAIRS = registerBlock("smooth_rock_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_ROCK_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+    public static final Block SMOOTH_ROCK_GEM_SLAB = registerBlock("smooth_rock_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+    public static final Block CHISELED_SMOOTH_ROCK_GEM_BLOCK = registerBlock("chiseled_smooth_rock_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)));
+
+    public static final Block SMOOTH_STEEL_GEM_BLOCK = registerBlock("smooth_steel_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.IRON_GRAY)));
+    public static final Block SMOOTH_STEEL_GEM_STAIRS = registerBlock("smooth_steel_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_STEEL_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.IRON_GRAY)));
+    public static final Block SMOOTH_STEEL_GEM_SLAB = registerBlock("smooth_steel_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.IRON_GRAY)));
+    public static final Block CHISELED_SMOOTH_STEEL_GEM_BLOCK = registerBlock("chiseled_smooth_steel_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.IRON_GRAY)));
+
+    public static final Block SMOOTH_WATER_GEM_BLOCK = registerBlock("smooth_water_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.WATER_BLUE)));
+    public static final Block SMOOTH_WATER_GEM_STAIRS = registerBlock("smooth_water_gem_stairs",
+            new StairsBlock(ModBlocks.SMOOTH_WATER_GEM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool()
+                            .mapColor(MapColor.WATER_BLUE)));
+    public static final Block SMOOTH_WATER_GEM_SLAB = registerBlock("smooth_water_gem_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()
+                    .mapColor(MapColor.WATER_BLUE)));
+    public static final Block CHISELED_SMOOTH_WATER_GEM_BLOCK = registerBlock("chiseled_smooth_water_gem_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
+                    .mapColor(MapColor.WATER_BLUE)));
 
 
     private static Block registerBlock(String name, Block block) {
@@ -804,6 +1091,79 @@ public class ModBlocks {
             entries.add(ModBlocks.WATER_GEM_BRICKS_SLAB);
             entries.add(ModBlocks.WATER_GEM_BRICKS_WALL);
             entries.add(ModBlocks.CHISELED_WATER_GEM_BRICKS);
+
+            entries.add(ModBlocks.SMOOTH_BUG_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_BUG_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_BUG_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_BUG_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_DARK_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_DARK_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_DARK_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_DARK_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_DRAGON_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_DRAGON_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_DRAGON_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_DRAGON_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_ELECTRIC_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_ELECTRIC_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_ELECTRIC_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_ELECTRIC_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_FAIRY_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_FAIRY_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_FAIRY_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_FAIRY_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_FIGHTING_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_FIGHTING_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_FIGHTING_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_FIGHTING_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_FIRE_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_FIRE_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_FIRE_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_FIRE_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_FLYING_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_FLYING_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_FLYING_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_FLYING_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_GHOST_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_GHOST_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_GHOST_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_GHOST_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_GRASS_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_GRASS_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_GRASS_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_GRASS_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_GROUND_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_GROUND_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_GROUND_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_GROUND_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_ICE_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_ICE_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_ICE_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_ICE_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_NORMAL_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_NORMAL_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_NORMAL_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_NORMAL_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_POISON_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_POISON_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_POISON_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_POISON_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_PSYCHIC_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_PSYCHIC_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_PSYCHIC_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_PSYCHIC_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_ROCK_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_ROCK_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_ROCK_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_ROCK_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_STEEL_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_STEEL_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_STEEL_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_STEEL_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_WATER_GEM_BLOCK);
+            entries.add(ModBlocks.SMOOTH_WATER_GEM_STAIRS);
+            entries.add(ModBlocks.SMOOTH_WATER_GEM_SLAB);
+            entries.add(ModBlocks.CHISELED_SMOOTH_WATER_GEM_BLOCK);
         });
     }
 }

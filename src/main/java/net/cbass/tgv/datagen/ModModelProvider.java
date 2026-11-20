@@ -213,6 +213,96 @@ public class ModModelProvider extends FabricModelProvider {
         WaterBricksPool.slab(ModBlocks.WATER_GEM_BRICKS_SLAB);
         WaterBricksPool.wall(ModBlocks.WATER_GEM_BRICKS_WALL);
         blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_WATER_GEM_BRICKS, TexturedModel.CUBE_COLUMN);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothBugPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_BUG_GEM_BLOCK);
+        SmoothBugPool.stairs(ModBlocks.SMOOTH_BUG_GEM_STAIRS);
+        SmoothBugPool.slab(ModBlocks.SMOOTH_BUG_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_BUG_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothDarkPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_DARK_GEM_BLOCK);
+        SmoothDarkPool.stairs(ModBlocks.SMOOTH_DARK_GEM_STAIRS);
+        SmoothDarkPool.slab(ModBlocks.SMOOTH_DARK_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_DARK_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothDragonPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_DRAGON_GEM_BLOCK);
+        SmoothDragonPool.stairs(ModBlocks.SMOOTH_DRAGON_GEM_STAIRS);
+        SmoothDragonPool.slab(ModBlocks.SMOOTH_DRAGON_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_DRAGON_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothElectricPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_ELECTRIC_GEM_BLOCK);
+        SmoothElectricPool.stairs(ModBlocks.SMOOTH_ELECTRIC_GEM_STAIRS);
+        SmoothElectricPool.slab(ModBlocks.SMOOTH_ELECTRIC_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_ELECTRIC_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothFairyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_FAIRY_GEM_BLOCK);
+        SmoothFairyPool.stairs(ModBlocks.SMOOTH_FAIRY_GEM_STAIRS);
+        SmoothFairyPool.slab(ModBlocks.SMOOTH_FAIRY_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_FAIRY_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothFightingPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_FIGHTING_GEM_BLOCK);
+        SmoothFightingPool.stairs(ModBlocks.SMOOTH_FIGHTING_GEM_STAIRS);
+        SmoothFightingPool.slab(ModBlocks.SMOOTH_FIGHTING_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_FIGHTING_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothFirePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_FIRE_GEM_BLOCK);
+        SmoothFirePool.stairs(ModBlocks.SMOOTH_FIRE_GEM_STAIRS);
+        SmoothFirePool.slab(ModBlocks.SMOOTH_FIRE_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_FIRE_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothFlyingPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_FLYING_GEM_BLOCK);
+        SmoothFlyingPool.stairs(ModBlocks.SMOOTH_FLYING_GEM_STAIRS);
+        SmoothFlyingPool.slab(ModBlocks.SMOOTH_FLYING_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_FLYING_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothGhostPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_GHOST_GEM_BLOCK);
+        SmoothGhostPool.stairs(ModBlocks.SMOOTH_GHOST_GEM_STAIRS);
+        SmoothGhostPool.slab(ModBlocks.SMOOTH_GHOST_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_GHOST_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothGrassPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_GRASS_GEM_BLOCK);
+        SmoothGrassPool.stairs(ModBlocks.SMOOTH_GRASS_GEM_STAIRS);
+        SmoothGrassPool.slab(ModBlocks.SMOOTH_GRASS_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_GRASS_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothGroundPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_GROUND_GEM_BLOCK);
+        SmoothGroundPool.stairs(ModBlocks.SMOOTH_GROUND_GEM_STAIRS);
+        SmoothGroundPool.slab(ModBlocks.SMOOTH_GROUND_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_GROUND_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothIcePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_ICE_GEM_BLOCK);
+        SmoothIcePool.stairs(ModBlocks.SMOOTH_ICE_GEM_STAIRS);
+        SmoothIcePool.slab(ModBlocks.SMOOTH_ICE_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_ICE_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothNormalPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_NORMAL_GEM_BLOCK);
+        SmoothNormalPool.stairs(ModBlocks.SMOOTH_NORMAL_GEM_STAIRS);
+        SmoothNormalPool.slab(ModBlocks.SMOOTH_NORMAL_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_NORMAL_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothPoisonPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_POISON_GEM_BLOCK);
+        SmoothPoisonPool.stairs(ModBlocks.SMOOTH_POISON_GEM_STAIRS);
+        SmoothPoisonPool.slab(ModBlocks.SMOOTH_POISON_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_POISON_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothPsychicPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_PSYCHIC_GEM_BLOCK);
+        SmoothPsychicPool.stairs(ModBlocks.SMOOTH_PSYCHIC_GEM_STAIRS);
+        SmoothPsychicPool.slab(ModBlocks.SMOOTH_PSYCHIC_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_PSYCHIC_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothRockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_ROCK_GEM_BLOCK);
+        SmoothRockPool.stairs(ModBlocks.SMOOTH_ROCK_GEM_STAIRS);
+        SmoothRockPool.slab(ModBlocks.SMOOTH_ROCK_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_ROCK_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothSteelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STEEL_GEM_BLOCK);
+        SmoothSteelPool.stairs(ModBlocks.SMOOTH_STEEL_GEM_STAIRS);
+        SmoothSteelPool.slab(ModBlocks.SMOOTH_STEEL_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_STEEL_GEM_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool SmoothWaterPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_WATER_GEM_BLOCK);
+        SmoothWaterPool.stairs(ModBlocks.SMOOTH_WATER_GEM_STAIRS);
+        SmoothWaterPool.slab(ModBlocks.SMOOTH_WATER_GEM_SLAB);
+        blockStateModelGenerator.registerRotatable(ModBlocks.CHISELED_SMOOTH_WATER_GEM_BLOCK);
     }
 
     @Override
