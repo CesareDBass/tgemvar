@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tgemvar:block/polished_water_gem_block",
+    "side": "tgemvar:block/polished_water_gem_block_slab",
+    "top": "tgemvar:block/polished_water_gem_block"
+  }
+}

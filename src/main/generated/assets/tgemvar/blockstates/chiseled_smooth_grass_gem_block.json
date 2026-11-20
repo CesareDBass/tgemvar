@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tgemvar:block/chiseled_smooth_grass_gem_block",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "tgemvar:block/chiseled_smooth_grass_gem_block",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "tgemvar:block/chiseled_smooth_grass_gem_block"
+    },
+    "facing=west": {
+      "model": "tgemvar:block/chiseled_smooth_grass_gem_block",
+      "y": 90
+    }
+  }
+}

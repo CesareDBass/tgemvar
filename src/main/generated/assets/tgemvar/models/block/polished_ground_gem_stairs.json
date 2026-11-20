@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tgemvar:block/polished_ground_gem_block",
+    "side": "tgemvar:block/polished_ground_gem_block",
+    "top": "tgemvar:block/polished_ground_gem_block"
+  }
+}

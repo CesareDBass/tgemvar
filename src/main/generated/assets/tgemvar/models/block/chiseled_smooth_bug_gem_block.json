@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glazed_terracotta",
+  "textures": {
+    "pattern": "tgemvar:block/chiseled_smooth_bug_gem_block"
+  }
+}

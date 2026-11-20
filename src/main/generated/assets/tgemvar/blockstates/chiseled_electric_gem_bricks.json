@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "tgemvar:block/chiseled_electric_gem_bricks",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "tgemvar:block/chiseled_electric_gem_bricks"
+    },
+    "axis=z": {
+      "model": "tgemvar:block/chiseled_electric_gem_bricks",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tgemvar:block/smooth_dark_gem_slab"
+    },
+    "type=double": {
+      "model": "tgemvar:block/smooth_dark_gem_block"
+    },
+    "type=top": {
+      "model": "tgemvar:block/smooth_dark_gem_slab_top"
+    }
+  }
+}

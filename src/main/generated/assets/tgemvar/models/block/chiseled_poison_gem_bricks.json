@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tgemvar:block/chiseled_poison_gem_bricks_top",
+    "side": "tgemvar:block/chiseled_poison_gem_bricks"
+  }
+}

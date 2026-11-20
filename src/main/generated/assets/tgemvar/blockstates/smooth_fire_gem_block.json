@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tgemvar:block/smooth_fire_gem_block"
+    }
+  }
+}

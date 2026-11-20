@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tgemvar:block/smooth_steel_gem_block"
+  }
+}
