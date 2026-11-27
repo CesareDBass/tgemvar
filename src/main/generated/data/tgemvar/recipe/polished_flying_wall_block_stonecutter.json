@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tgemvar:polished_flying_gem_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgemvar:polished_flying_gem_wall"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flying_gem_bricks_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tgemvar:flying_gem_bricks_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tgemvar:chiseled_flying_gem_bricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flying_gem_bricks_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tgemvar:chiseled_flying_gem_bricks"
+    ]
+  }
+}

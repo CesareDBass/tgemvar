@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tgemvar:ghost_gem_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgemvar:chiseled_ghost_gem_bricks"
+  }
+}

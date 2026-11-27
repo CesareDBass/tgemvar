@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tgemvar:smooth_flying_gem_block"
+  },
+  "result": {
+    "count": 2,
+    "id": "tgemvar:smooth_flying_gem_slab"
+  }
+}

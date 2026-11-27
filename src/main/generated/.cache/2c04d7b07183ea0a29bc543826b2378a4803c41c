@@ -1,4 +1,4 @@
-// 1.21.1	2026-11-27T09:16:36.7987314	Type Gems Variant/Block Loot Tables
+// 1.21.1	2026-11-27T17:10:42.1071861	Type Gems Variant/Block Loot Tables
 d1ea3f9f84bbd7fba696172ba654ddf5e2f513d7 data\tgemvar\loot_table\blocks\ghost_gem_bricks.json
 b91bdfee6531f0667f638f816106e4c952ffc5a8 data\tgemvar\loot_table\blocks\ghost_gem_bricks_slab.json
 d19c0ab7b827959953617abe07f045f97606a81f data\tgemvar\loot_table\blocks\rock_gem_bricks.json
@@ -150,8 +150,8 @@ af2ca456796f8b4c031af4ac15b6d613fd2f1bf9 data\tgemvar\loot_table\blocks\smooth_f
 c6be847eade040ce1838c86c6e5dade0f6385b0e data\tgemvar\loot_table\blocks\chiseled_fighting_gem_bricks.json
 90d871e9eb07eeaec01932ae10d14e5943eae53a data\tgemvar\loot_table\blocks\chiseled_smooth_flying_gem_block.json
 778a26cef1fa8d731e78eda59705b2d28bb7918a data\tgemvar\loot_table\blocks\polished_rock_gem_slab.json
-cdd38bd22fd6106089f88d72c435da05b99f22c3 data\tgemvar\loot_table\blocks\fairy_gem_bricks_slab.json
 5241960f027a926c31e89f6e26c7c5ea89564659 data\tgemvar\loot_table\blocks\chiseled_steel_gem_bricks.json
+cdd38bd22fd6106089f88d72c435da05b99f22c3 data\tgemvar\loot_table\blocks\fairy_gem_bricks_slab.json
 b6c5ea06b369432cdad7cb7ef19ae1b5fedf809c data\tgemvar\loot_table\blocks\steel_gem_bricks_slab.json
 2b6ded84282dd388fabbc2c92682300ba0c8eccf data\tgemvar\loot_table\blocks\steel_gem_bricks_stairs.json
 15b4268bc7236a4b6f1c0299074f054738f46c64 data\tgemvar\loot_table\blocks\fire_gem_bricks_slab.json

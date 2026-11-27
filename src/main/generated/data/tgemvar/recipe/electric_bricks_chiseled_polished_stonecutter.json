@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tgemvar:polished_electric_gem_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgemvar:chiseled_electric_gem_bricks"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dragon_egg"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgemvar:dragon_gem_bricks"
+  }
+}

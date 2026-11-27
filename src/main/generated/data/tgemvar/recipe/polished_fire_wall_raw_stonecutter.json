@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:fire_charge"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgemvar:polished_fire_gem_wall"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ghost_gem_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tgemvar:ghost_gem_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tgemvar:ghost_gem_bricks_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ghost_gem_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tgemvar:ghost_gem_bricks_wall"
+    ]
+  }
+}

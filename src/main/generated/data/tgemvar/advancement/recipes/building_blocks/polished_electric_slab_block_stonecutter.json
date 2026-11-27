@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_electric_gem_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tgemvar:polished_electric_gem_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tgemvar:polished_electric_slab_block_stonecutter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_polished_electric_gem_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tgemvar:polished_electric_slab_block_stonecutter"
+    ]
+  }
+}

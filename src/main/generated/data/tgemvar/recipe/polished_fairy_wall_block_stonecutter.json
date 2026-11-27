@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tgemvar:polished_fairy_gem_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgemvar:polished_fairy_gem_wall"
+  }
+}

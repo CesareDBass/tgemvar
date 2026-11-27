@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_electric_gem_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tgemvar:electric_gem_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tgemvar:electric_bricks_stairs_bricks_stonecutter"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_electric_gem_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tgemvar:electric_bricks_stairs_bricks_stonecutter"
+    ]
+  }
+}

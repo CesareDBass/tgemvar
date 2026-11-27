@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tgemvar:polished_dragon_gem_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "tgemvar:dragon_gem_bricks_wall"
+  }
+}
