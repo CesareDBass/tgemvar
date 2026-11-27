@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:diamond"
+      "item": "tgemvar:polished_bug_gem_block"
     }
   },
   "pattern": [

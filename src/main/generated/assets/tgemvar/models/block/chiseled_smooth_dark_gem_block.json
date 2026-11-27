@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/template_glazed_terracotta",
+  "parent": "minecraft:block/orientable",
   "textures": {
-    "all": "tgemvar:block/chiseled_smooth_dark_gem_block"
+    "front": "tgemvar:block/chiseled_smooth_dark_gem_block",
+    "side": "tgemvar:block/chiseled_smooth_dark_gem_block",
+    "top": "tgemvar:block/chiseled_smooth_dark_gem_block"
   }
 }
